@@ -1,0 +1,23 @@
+# .dockerignore file for a Flash application with environment variables
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+env
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore other common files and directories
+.git
+.gitignore
+.vscode/
+.idea/
+*.log
+*.tmp

@@ -4,6 +4,15 @@
 
 ## How to run this project
 
+
+With docker just build the image and run it:
+
+```bash
+docker build -t softdes .
+docker volume create softdes
+docker run -p 8080:8080 -v quiz-db:/app/database servidor-desafios
+```
+
 ### Prerequisites
 
 - Install [Python 3](https://www.python.org/downloads/)
